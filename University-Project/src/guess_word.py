@@ -5,7 +5,7 @@ import os
 
 
 def get_word(language: str, length: int) -> str:
-    with open(os.path.join('src', 'assets', 'languagepl.json')) as raw:
+    with open(os.path.join('University-Project','src', 'assets', 'languagepl.json')) as raw:
         data = json.load(raw)[language]
 
     word = random.choice(data)
