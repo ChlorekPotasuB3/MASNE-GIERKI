@@ -94,7 +94,7 @@ MAX_LENGTH = 8
 
 @st.cache
 def get_words() -> List[str]:
-    with open('1000words.txt') as f:
+    with open('University-Project/1000words.txt') as f:
         words = [line.strip() for line in f]
 
     words = [w for w in words if MIN_LENGTH <= len(w) <= MAX_LENGTH]
