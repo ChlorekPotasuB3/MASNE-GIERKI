@@ -69,7 +69,7 @@ def change_button():
 
 
 def main():
-    os.chdir('/')
+#    os.chdir('/')
     if 'page' not in st.session_state:
         init()
 
