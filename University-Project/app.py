@@ -1,4 +1,5 @@
 from typing import TypeVar
+import os
 
 import dataclasses
 from PIL import Image
@@ -68,6 +69,7 @@ def change_button():
 
 
 def main():
+    os.chdir('/')
     if 'page' not in st.session_state:
         init()
 
