@@ -12,7 +12,7 @@ from src.gamestate import persistent_game_state
 
 
 
-with open('src/assets/stories.json') as f:
+with open('University-Project/src/assets/stories.json') as f:
     stories = json.load(f)
 
 
